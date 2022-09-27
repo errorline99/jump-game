@@ -59,12 +59,7 @@ function obs(){
 }
 
 
-setInterval(function hum(){
-    if(height === -30){
-        height = 0
-        jum.style.transform = 'translateY(' + height + 'px)'
-    }
-}, 10000)
+
 
 
 start.addEventListener('click', function(){
